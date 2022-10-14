@@ -1,0 +1,263 @@
+/*=====================================================================================================*/
+
+* {
+	font-family: "lato", sans-serif;
+	color: #1E212C;
+	line-height: 160%;
+	font-weight: 400;
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+/*=====================================================================================================*/
+
+.header {
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 20px;
+	background-color: rgb(214, 214, 213);
+}
+
+.header__container {
+}
+
+.header__menu {
+}
+
+.menu {
+	font-size: 0;
+}
+
+.menu__list {
+	
+}
+
+.menu__item {
+	position: relative;
+	display: inline-block;
+}
+
+.menu__item:not(:last-child) {
+	margin-right: 90px;
+}
+
+.menu__item:hover .sub-menu__list {
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+
+.menu__link {
+	font-size: 16px;
+	display: inline-block;
+	padding: 5px 0px;
+}
+
+.sub-menu__list {
+	/*opacity: 0;*/
+	background-color: rgb(147, 255, 147);
+	padding: 14px;
+	position: absolute;
+	min-width: 200px;
+	top: 130%;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+}
+
+.sub-menu__item {
+}
+.sub-menu__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.sub-menu__link {
+	color: #2453ff;
+	font-size: 16px;
+}
+
+/*=====================================================================================================*/
+
+.page {
+	margin-top: 120px;
+	margin-bottom: 90px;
+}
+
+.page__container {
+
+}
+
+.page__image {
+	text-align: center;
+	margin-bottom: 18px;
+}
+
+.page__image img {
+	width: 800px;
+}
+
+.page__title {
+	font-size: 34px;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.page__paragraph {
+	margin-bottom: 30px;
+}
+
+.page__text {
+
+}
+
+.page__text:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.page__headline {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.page__items {
+	margin-bottom: 10px;
+}
+
+.page__word {
+	margin-bottom: 40px;
+}
+
+.items-page {
+
+}
+
+.items-page__headline {
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.items-page__body {
+
+}
+
+.items-page__list {
+
+}
+
+.items-page__item {
+	padding-left: 40px;
+	position: relative;
+	min-height: 16px;
+
+}
+
+.items-page__item::before {
+	content: "";
+	background: url(../img/check.png);
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	transition: all 0.5s ease 0s;
+}
+
+.items-page__item:hover::before {
+	left: 10px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.page__vehicle {
+}
+
+.vehicle-page {
+	position: relative;
+}
+
+.vehicle-page__image {
+}
+
+.vehicle-page__carcase img {
+	width: 880px;
+	position: absolute;
+	top: 53%;
+	left: 0;
+	/* bottom: 60px; */
+	z-index: 3;
+}
+
+.vehicle-page__carcase-glass img {
+	width: 880px;
+	position: absolute;
+	top: 53%;
+	left: 0;
+	z-index: 3;
+}
+
+.vehicle-page__glass img {
+	width: 880px;
+	position: absolute;
+	top: 53%;
+	left: 0;
+	transition: all 3s ease 0s;
+	z-index: 3;
+	opacity: 0.8;
+}
+
+.vehicle-page__glass img:hover {
+	top: 56%;
+}
+
+.vehicle-page__mirror img {
+	width: 880px;
+	position: absolute;
+	top: 53%;
+	left: 0;
+}
+
+.vehicle-page__left-wheel img {
+	width: 880px;
+	position: absolute;
+	top: 53%;
+	left: 0;
+}
+
+.vehicle-page__right-wheel img {
+	width: 880px;
+	position: absolute;
+	top: 53%;
+	left: 0;
+}
+
+.vehicle-page__face img {
+	width: 120px;
+	position: absolute;
+	top: 72%;
+	left: 35%;
+}
+
+/*=====================================================================================================*/
+
+.footer {
+
+}
+
+.footer__container {
+	
+}
+
+.footer__copyright {
+	text-align: center;
+}
+
+
+
